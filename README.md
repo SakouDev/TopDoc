@@ -6,3 +6,14 @@
 --> npm install
 
 - npm start
+
+
+## Github Commit Naming Convention
+
+- Feature🚀 --> **[FEATURE] - FeatureName**
+- Hotfix🔥 --> **[HOTFIX] - HotfixName**
+- Merge🔍 --> **[MERGE] - MergeName**
+
+### Checkpoint of the day
+
+- Work in progress --> **[WIP] - NameWhereYouStopped**
