@@ -1,2 +1,2 @@
-# Projet en binome avec Remy Cottrez 
+# Projet en binome avec RemyCTRZ 
 [Remy Github](https://github.com/RemyCTRZ)
