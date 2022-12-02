@@ -23,12 +23,14 @@ npm start
 
 ## Tech Stack
 
-**Client(EuroStage-Front):** React, Axios
-**Server(EuroStage-Back) :** C#, Dotnet6
+**Client(TopDoc):** React, Axios
+
+**Server(TopDocAPI) :** NodeJS, Express, Typescript
 
 ## Documentation
 
 -Axios : https://axios-http.com/docs/intro
+
 -React-Router (V6) : https://reactrouter.com/docs/en/v6
 
 # Author :
