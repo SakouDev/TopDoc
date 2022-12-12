@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    padding-inline: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+}
+
+.right_nav {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.acc_link {
+    background-color: var(--green-bg);
+    padding: .2rem .5rem;
+    color: var(--white-bg);
+    border-radius: 5px;
+}
