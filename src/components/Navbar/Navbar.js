@@ -12,7 +12,7 @@ function Navbar() {
                     Je prends rendez-vous
                 </Link>
                 <Link to={"/"} className='link'>
-                    Se connecter
+                    Je suis praticien
                 </Link>
             </div>
         </nav>

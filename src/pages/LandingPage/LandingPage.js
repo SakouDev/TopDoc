@@ -2,6 +2,8 @@ import React from 'react'
 import './LandingPage.css'
 import { FiMapPin } from 'react-icons/fi'
 import { BsSearch } from 'react-icons/bs'
+import { IoMedkitOutline } from 'react-icons/io5'
+import { BiTrendingUp, BiHappy, BiTime } from 'react-icons/bi'
 import { Images } from '../../components/Images'
 
 export default function LandingPage() {
@@ -57,17 +59,46 @@ export default function LandingPage() {
         <ul className='func_list_bottom'>
           <li className='func_bottom'>
             <p className='func_title'>Découvrez des professionnels de santé près de chez vous</p>
-            <img className='func_img' src={Images.SecondFunction} alt='notre nouveau service' />
+            <img className='func_img' src={Images.FourthFunction} alt='notre nouveau service' />
           </li>
           <li className='func_bottom'>
             <p className='func_title'>Gérez vos rendez-vous sur tous vos appareils de façon synchronisée</p>
-            <img className='func_img' src={Images.SecondFunction} alt='notre nouveau service' />
+            <img className='func_img' src={Images.FifthFunction} alt='notre nouveau service' />
           </li>
           <li className='func_bottom'>
             <p className='func_title'>Contrôlez vos recherches et rendez-vous en un clic</p>
-            <img className='func_img' src={Images.SecondFunction} alt='notre nouveau service' />
+            <img className='func_img' src={Images.SixthFunction} alt='notre nouveau service' />
           </li>
         </ul>
+      </section>
+      <section className='bottom_section'>
+        <div className='doctors_container'>
+          <div className='doctors_container_left'>
+            <h2 className='doctors_title'>Vous êtes praticien ?</h2>
+            <p className='doctors_subtitle'>Topdoc c'est ...</p>
+            <ul className='pros_list'>
+              <li className='pro'>
+                <BiTime className='pro_icon' />
+                <p className='pro_txt'>Un gain de temps grâce à une prise de rendez-vous intuitive</p>
+              </li>
+              <li className='pro'>
+                <BiTrendingUp className='pro_icon' />
+                <p className='pro_txt'>Une occasion de développer l’activité de votre cabinet grâce à une visibilité en ligne</p>
+              </li>
+              <li className='pro'>
+                <BiHappy className='pro_icon' />
+                <p className='pro_txt'>Un confort de travail au quotidien en réduisant les appels téléphoniques</p>
+              </li>
+              <li className='pro'>
+                <IoMedkitOutline className='pro_icon' />
+                <p className='pro_txt'>Un meilleur accès aux soins pour vos patients</p>
+              </li>
+            </ul>
+          </div>
+          <div className='doctors_container_right'>
+            <img className='doctors_img' src={Images.PhoneValid} alt='pros' />
+          </div>
+        </div>
       </section>
     </>
   )
