@@ -1,5 +1,5 @@
 .landing_page {
-    height: calc(100vh - 5rem);
+    min-height: 100vh;
 }
 
 .landing_page {
@@ -9,6 +9,7 @@
 .search_container {
     position: relative;
     margin: 5rem;
+    margin-top: 10rem;
     width: fit-content;
     height: fit-content;
     border-radius: 1.5rem;

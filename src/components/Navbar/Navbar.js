@@ -1,20 +1,22 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 
-function Navbar() {
+function Navbar({ navbarLinks, setNavbarLinks }) {
     return (
         <nav className='navbar'>
-            <div>
+            <Link to={'/'} onClick={() => setNavbarLinks(true)}>
                 TOPDOC
-            </div>
-            <div className='right_nav'>
-                <Link to={"/"} className='acc_link'>
-                    Je prends rendez-vous
-                </Link>
-                <Link to={"/"} className='link'>
-                    Je suis praticien
-                </Link>
-            </div>
+            </Link>
+            {navbarLinks &&
+                <div className='right_nav'>
+                    <Link to={"/connexion"} className='acc_link' onClick={() => setNavbarLinks(false)}>
+                        Je prends rendez-vous
+                    </Link>
+                    <Link to={"/"} className='link'>
+                        Je suis praticien
+                    </Link>
+                </div>
+            }
         </nav>
     )
 }

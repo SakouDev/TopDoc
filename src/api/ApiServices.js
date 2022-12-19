@@ -24,7 +24,6 @@ const ApiService = {
         return axios
             .post(`${url}/authentication_token`, logs)
     },
-    
 }
 
 export { ApiService }
