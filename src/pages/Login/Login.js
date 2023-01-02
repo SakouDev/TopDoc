@@ -28,7 +28,7 @@ export default function Login() {
                     </form>
                     :
                     <form className='signup_form'>
-                        <img className='cat_svg' src={Images.Cat} alt='cat' />
+                        <img className='cat_svg right' src={Images.Cat} alt='cat' />
                         <div className='form_titles'>
                             <button className='form_title inactive' onClick={() => setSwitchToSignup(false)}>Connexion</button>
                             <h3 className='form_title'>Inscription</h3>

@@ -8,6 +8,22 @@
 
 .cat_svg {
     left: 0;
+    transform: scaleX(-1);
+}
+
+.cat_svg::before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    top: 0;
+}
+
+.cat_svg.right {
+    left: unset;
+    right: 0;
+    transform: scaleX(1);
 }
 
 .login_form,
@@ -32,6 +48,7 @@
     font-weight: 700;
     padding: 1rem 2rem;
     font-size: 2em;
+    border-top: 5px solid;
 }
 
 .form_title:nth-child(1) {
