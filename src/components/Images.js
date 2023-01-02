@@ -5,6 +5,7 @@ import ThirdFunction from '../assets/img/func_3.png'
 import FourthFunction from '../assets/img/func_4.png'
 import FifthFunction from '../assets/img/func_5.png'
 import SixthFunction from '../assets/img/func_6.png'
+import SeventhFunction from '../assets/img/func_7.png'
 import Wave from '../assets/img/wave.svg'
 import DoctorBg from '../assets/img/doctor_bg.svg'
 import PhoneValid from '../assets/img/phone_valid.png'
@@ -21,5 +22,6 @@ export const Images = {
     Wave: Wave,
     DoctorBg: DoctorBg,
     PhoneValid: PhoneValid,
-    Login: Login
+    Login: Login,
+    SeventhFunction: SeventhFunction,
 }
