@@ -36,6 +36,7 @@ export default function LandingPage() {
         <img className='doctor_bg' src={Images.DoctorBg} alt='background' />
         <img className='wave' src={Images.Wave} alt='wave' />
       </section>
+
       <section className='middle_section'>
         <div className='our_services'>
           <p className='topdoc'>TOPDOC</p>
@@ -75,6 +76,9 @@ export default function LandingPage() {
           </li>
         </ul>
       </section>
+
+      <div className='triangle'></div>
+
       <section className='bottom_section'>
         <div className='doctors_container'>
           <div className='doctors_container_left'>

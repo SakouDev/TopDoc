@@ -10,6 +10,7 @@ import Wave from '../assets/img/wave.svg'
 import DoctorBg from '../assets/img/doctor_bg.svg'
 import PhoneValid from '../assets/img/phone_valid.png'
 import Login from '../assets/img/login.svg'
+import Logo from '../assets/img/topdoc.png'
 
 export const Images = {
     Cat: Cat,
@@ -24,4 +25,5 @@ export const Images = {
     PhoneValid: PhoneValid,
     Login: Login,
     SeventhFunction: SeventhFunction,
+    Logo: Logo,
 }

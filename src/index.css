@@ -21,9 +21,10 @@ code {
 * {
   margin: 0;
   color: var(--black-txt);
-  --blue-txt: #4CC9DA;
+  --blue-txt: #87CEEB;
   --white-bg: #F1F1F1;
-  --green-bg: #3dd775;
+  --black-bg: #333;
+  --green-bg: #019801;
   --black-txt: #2F2E41;
 }
 

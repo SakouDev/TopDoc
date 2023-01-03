@@ -8,16 +8,8 @@
 
 .cat_svg {
     left: 0;
+    top: -4.8rem;
     transform: scaleX(-1);
-}
-
-.cat_svg::before {
-    content: '';
-    position: absolute;
-    height: 5px;
-    width: 5px;
-    background-color: #fff;
-    top: 0;
 }
 
 .cat_svg.right {
