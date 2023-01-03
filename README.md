@@ -40,4 +40,4 @@ npm start
 
 ## Related
 
-Here is the BackEnd of this project: [TopDocAPI](https://github.com/SakouDev/TopDocAPI/settings)
+Here is the BackEnd of this project: [TopDocAPI](https://github.com/SakouDev/TopDocAPI)
