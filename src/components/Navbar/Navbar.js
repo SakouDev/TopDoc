@@ -2,25 +2,23 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { FaHandHoldingMedical } from 'react-icons/fa'
 
-function Navbar({ navbarLinks, setNavbarLinks }) {
+function Navbar() {
     return (
         <nav className='navbar'>
-            <Link to={'/'} onClick={() => setNavbarLinks(true)}>
+            <Link to={'/'}>
                 <FaHandHoldingMedical className='logo'/>
             </Link>
-            {navbarLinks &&
                 <div className='right_nav'>
                     <div className='btn_container'>
-                        <Link to={"/connexion"} className='acc_link' onClick={() => setNavbarLinks(false)}>
-                            Je prends rendez-vous
+                        <Link to={"/connexion"} className='acc_link'>
+                            Je me connecte
                         </Link>
                         <span className='btn_3D'></span>
                     </div>
                     <Link to={"/"} className='link'>
-                        Je suis praticien
+                        Je m'inscris
                     </Link>
                 </div>
-            }
         </nav>
     )
 }

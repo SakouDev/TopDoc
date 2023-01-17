@@ -20,9 +20,9 @@ const ApiService = {
         return axios
         .delete(`${url}/api/${ressource}/${data}`)
     },
-    login(logs) {
+    login(data) {
         return axios
-            .post(`${url}/authentication_token`, logs)
+            .post(`${url}/api/auth`, data)
     },
 }
 

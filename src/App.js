@@ -8,11 +8,9 @@ import Login from './pages/Login/Login';
 
 function App() {
 
-  const [navbarLinks, setNavbarLinks] = useState(true)
-
   return (
     <Router>
-      <Navbar navbarLinks={navbarLinks} setNavbarLinks={setNavbarLinks} />
+      <Navbar />
       <Routes>
         <Route path='' element={<LandingPage />}></Route>
         <Route path='/connexion' element={<Login />}></Route>
